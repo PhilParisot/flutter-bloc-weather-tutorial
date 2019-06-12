@@ -1,17 +1,17 @@
 name: flutter_weather
-description: Advanced flutter_bloc tutorial https://felangel.github.io/bloc/#/flutterweathertutorial
+description: Advanced flutter_bloc tutorial based on https://felangel.github.io/bloc/#/flutterweathertutorial with added json_serializable support
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.1.0-dev.68.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^0.15.1
   http: ^0.12.0+2
-  equatable: ^0.2.0
+  equatable: ^0.2.6
 
 dev_dependencies:
   flutter_test:
